@@ -12,11 +12,8 @@ class EmailParser
  end   
   
  def parse
-
    self.emails.split(/, | /).uniq
    #can just call emails directly
      # emails.split(/, | /).uniq
  end  
-
-
 end   
