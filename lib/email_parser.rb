@@ -12,9 +12,18 @@ class EmailParser
  end   
   
  def parse
+<<<<<<< HEAD
    self.emails.split(/, | /).uniq
    #can just call emails directly
      # emails.split(/, | /).uniq
  end  
 
+=======
+   self.emails
+   binding.pry
+ 
+ end  
+
+
+>>>>>>> 5bcec3123d7127fd1e28d4336e65fc1cc60dbaf1
 end   
